@@ -34,6 +34,7 @@ namespace BinarySolver
         {
             try
             {
+                // Throws exception if there is no valid buffer
                 var _ = Console.WindowWidth;
                 return true;
             }
